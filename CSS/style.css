@@ -41,17 +41,12 @@ body {
 }
 
 .content-information {
-    width:100%;
-    height:800px;
+    width:150%;
+    height:650px;
     padding-right:10px;
-    display:flex;
+    display:grid;
     padding-top: 40px;
-}
-
-.content-contact {
-    width:100%;
-    height:200px;
-    padding-left:10px;
+    row-gap:8px;
 }
 
 #bali {
@@ -63,6 +58,121 @@ body {
 }
 
 #feedback-text {
-    padding-left: 60px;
-    padding-right:30px;
+    padding-left: 120px;
+    padding-right:100px;
+    color: rgb(155, 151, 151);
+    width:400px;
+    position: relative;
+    left:100px;
 }
+
+#feedback-person-img {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position: relative;
+    left:10px;
+}
+
+.feedback-person-container {
+    display:flex;
+}
+
+.profile-name {
+    align-content: space-around;
+}
+
+.feedback-profile-container {
+    display:grid;
+    align-content: space-around;
+    row-gap:0px;
+    position:relative;
+    left:10px;
+}
+
+.profile-text {
+    margin:0px;
+    padding-left:8px;
+    padding-top:7px;
+}
+
+
+.profile-text-description {
+    margin:0px;
+    padding-left:8px;
+    left:10px;
+    font-size: 11.8px
+}
+
+.content-information-line-break {
+    transform:rotate(90deg);
+    height:100px
+}
+
+.benefits-list {
+    list-style-type: decimal;
+}
+
+ol {
+    list-style: none;
+    position:relative;
+    left:30px   
+}
+
+li {
+    line-height: 1.5;
+
+}
+
+.benefits-header {
+    width:600px;
+    position:relative;
+    left:30px
+}
+
+.content-contact {
+    width:100%;
+    height:635px;
+    padding-left:10px;
+    background-color: rgb(206, 212, 221);
+    margin-right:30px;
+    margin-top: 40px;
+}
+
+.contact-form {
+    margin : 0 30px 0px 50px;
+}
+
+.contact-header {
+    width : 450px;
+    margin-top:40px;
+    margin-left:50px;
+    margin-right:30px;
+}
+
+form label {
+    font-size : 13px;
+    font-weight: bold;
+}
+
+input {
+    border-radius:10px;
+    border : 2px solid rgb(189, 195, 202);
+    height:70px;
+    width: 450px;
+    font-size: 15px;
+}
+
+select {
+    border-radius:10px;
+    border : 2px solid rgb(189, 195, 202);
+    height:70px;
+    width: 450px;
+    font-size: 15px;
+}
+
+#submit-form {
+    background-color: rgb(32, 32, 33);
+    color:white
+}
+
