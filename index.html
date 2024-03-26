@@ -3,13 +3,15 @@
     <head>
         <title>Travel Agent</title>
         <link rel="stylesheet" href="css/style.css" >
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="header-container">
 
             <section class="logo-icon">
-
+                <img id="logo-icon-photo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAAYAAACRkZKvr69WVlinp6g+PkDo6OiCgoSUlJW8vL1xcXMAAANcXF6FhYbKystlZWbZ2dpGRkj09PSfn6AiIiUWFhlsbG3Dw8Tn5+c5OTuampx4eHkRERVNTVDR0dIrKy0yMjUJCRC2trceHiJfZBBeAAADrUlEQVR4nO3d63KiQBCGYWg8EBWiiMZ4QqO5/1vcNYhBnOwCPSPdle/5vVjzVswwZGHwPAAAAAAAAAAAAAAAAAAAgN+il/VdyMZdh90E5Mhr12WFEflORDRPu27LuSr0fZp03ZZzWCjke7r4+qVxUrjtuu0qPSz6JxeRJGc6vVQGS+uRdOg6q+IwsZxI666THoQ/NNY8AUb3R0XUdY9Jsjck0nFYx0fla06nrmuM0uVjIvVqHjy+O5j6TkfaWsAo9LysdLSU02EVr9B7+z6cFu5GycEsnJYKp+5GycEs9IbF8RElzgbJwi0cF8cTCbm0qOIWpsUpg5bOxsjDLfT6RaGQa6cH7MJtUSh0KuUXFrOp1KmUXxjm69OIQldDZGIXpvlJn46uRsjFLvQ2eeHK0QDZ+IX5ZEoDRwNk4xdO8kKhKxobhV+fQG+OxsfHL8z/eDdzND4+fuE4ns1m8buj8fHxC6VDoX4o1A+F+qFQPxTqh0L9UKgfCvVDoX4o1A+F+qFQP1PhuetBWWUqnPQGdXU9/BoMhXXvvrwQerdemamwAbn/9XvDLPTppeuC/2EXip+WuN9S+b+IvEKxt+uVMAsVLA5YhQq+o43Ph5V/J/87al7TLMJ76/U6mZ4H28kmKkdGJPf2hJJmK+802R5vjRQ8cZztNb+2SOK8keInDZGpzdVTsqHIp/lTxsfX7vowIMqeMDgrWl4Bn6Xe1f3od17jo1AXFOqHQv1QqB8K9UOhfijUD4X6oVA/FOqHQv1QqB8K9UOhfijUD4WNTJcDefefWC1cEdHqYHF0NtgsvOzd9rdR2KZfNgt7+V0okrYT9uwWHvNCYduaWSy87twmbT8li4XxtVDYdGqvMCk237M8Qi57hbPrj1DahsnWCm8/Qmm3g1krnBeFO9tDZLJV2BN716mlwvD7vlppD2CYClssSm4bJst7f4Dx2bXGnxLfPiUS9/4AQ2HUeN3V//4QknY6/OFphEY34Sfl7fXpw9VI2zK+doYoG9ddeyX3r5AQd7Iof8HuG2kYnJPwn51pOB19VN5zIeZlM4XVjw8F5c/InI7DeT9eTXa7lzu71SzbvBne4yHs2mlgeoFHWdToLSW+sKk0He3tvzCI9l1nFcJBVn1Oy06hiOdMwvfXTyd5voxVae/08JSdzUIBq9LAMD9YLBQw0bh7s9wlcC/gjzRuCyVMNKMGe0I0J2CicVwoa0UDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOvwBwjMt3xIIh2kAAAAASUVORK5CYII=">
             </section>
 
             <section class="nav-container">
@@ -23,15 +25,19 @@
 
         <section class="section-container">
             <header class="website-header">
-                <h1>Exploreku</h1>
+                <h1 style="font-size:30px">Exploreku</h1>
                 <br>
-                <p>Travel Agent Terpercaya, Aman, dan Praktis</p>
+                <p style="font-size: 18px;">Travel Agent Terpercaya, Aman, dan Praktis</p>
             </header>
 
             <section class="section-content-container">
                 <section class="content-information">
                     <div class="feedback-container">
-                        <img src="https://images.pexels.com/photos/2474689/pexels-photo-2474689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="bali">
+                        <img class="feedback-img" src="https://images.pexels.com/photos/2474689/pexels-photo-2474689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" >
+                        <img class="feedback-img" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revisi-2020/destinations-thumbnail/Bali-Thumbnail.jpg">
+                        <img class="feedback-img" src="https://media.cntraveler.com/photos/63f4f4fc0630e21ed8088321/1:1/w_1280%2Ch_1280%2Cc_limit/GettyImages-1145042281.jpeg">
+                        <button onclick="plusDivs(-1)">Previous</button>
+                        <button onclick="plusDivs(1)">Next</button>
                         <br>
                         <article id="feedback-text">
                             <i>"Liburan di Bali menjadi sangat menyenangkan dan mudah karena Exploreku."</i>
@@ -72,7 +78,7 @@
                         <p style="font-size: 14px;">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
                         <br><br>
                     </header>
-                    <form class="contact-form">
+                    <form class="contact-form" name="contact-form" onsubmit="return validateForm()">
                         <label for="name">Your Name: </label> <br>
                         <input id="name" type="text" placeholder="First and last name"> <br><br>
 
@@ -208,7 +214,7 @@
             </main>
         </section><br><br>
 
-        <hr>
+        <hr id="closing-break">
 
         <section class="closing">
             <center>
@@ -227,5 +233,6 @@
             </center>
         </section>
 
+        <script src="js/script.js"></script>
     </body>
 </html>
