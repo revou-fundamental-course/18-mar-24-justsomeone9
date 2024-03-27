@@ -80,13 +80,13 @@
                     </header>
                     <form class="contact-form" name="contact-form" onsubmit="return validateForm()">
                         <label for="name">Your Name: </label> <br>
-                        <input id="name" type="text" placeholder="First and last name"> <br><br>
+                        <input id="name" name="user-name" type="text" placeholder="First and last name"> <br><br>
 
                         <label for="email">Email Adress: </label><br>
-                        <input id="email" type="email" placeholder="example@email.com"><br><br>
+                        <input id="email" name="email" type="email" placeholder="example@email.com"><br><br>
 
                         <label for="destination">Where do you want to go?</label><br>
-                        <select name="destination" id="destination" form="destinationform">
+                        <select name="destination" id="destination">
                             <optgroup label="Indonesia">
                                 <option value="bali">Bali</option>
                                 <option value="surabaya">Surabaya</option>
@@ -99,7 +99,7 @@
                             </optgroup>
                         </select> <br> <br>
 
-                        <input type="submit" value="SUBMIT" id="submit-form">
+                        <button id="submit-form" type="button" onclick="submitForm()">SUBMIT</button>
                     </form>
                 </section>
             </section>

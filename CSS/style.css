@@ -199,6 +199,11 @@ select {
     background-color: rgb(32, 32, 33);
     color:white;
     font-weight: bold;
+    border-radius:10px;
+    border : 2px solid rgb(189, 195, 202);
+    height:70px;
+    width: 450px;
+    font-size: 15px;
 }
 
 .packages-break {
