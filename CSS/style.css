@@ -1,5 +1,3 @@
-
-
 body {
     font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
 }
@@ -29,12 +27,12 @@ body {
 }
 
 .nav-container > button {
-    height:40px;
+    height:35px;
     background-color: white;
     border:1px solid black;
     width:auto;
     align-content: center;
-    border-radius:15px;
+    border-radius:7px;
 }
 
 .nav-container > button > img {
@@ -57,7 +55,10 @@ body {
     padding-top: 48px;
     padding-bottom: 24px;
     padding-right: 40px;
+
+    
 }
+
 
 .section-content-container {
     display: flex;
@@ -78,6 +79,23 @@ body {
     margin-left: auto;
     margin-right: auto;
     display:block;
+}
+
+.autoslide-button {
+    background-color:black;
+    color:white;
+    border-radius:3px;
+    font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+    border:0px;
+    height:30px;
+    width:80px;
+    margin: 8px 0px 0px 0px;
+    align-content: center;
+
+}
+
+#autoslide-button1 {
+    margin-left:200px;
 }
 
 #feedback-text {
@@ -138,20 +156,17 @@ body {
 
 ol {
     list-style: none;
-    position:relative;
-    left:30px   
+    margin-left:30px;
 }
 
 li {
     line-height: 1.5;
-
 }
 
 .benefits-header {
     width:800px;
-    position:relative;
-    left:30px;
-    font-size : 18px
+    margin-left:30px;
+    font-size : 14px
 }
 
 .content-contact {
@@ -212,6 +227,7 @@ select {
     align-content: center;
     font-size:28px;
     color: rgb(22, 22, 26);
+    
 }
 
 .packages-container {
@@ -283,6 +299,44 @@ select {
 }
 
 #closing-break {
-    height: 3px;
-    background-color: black;
+    height: 2px;
+    background-color: rgb(189, 195, 202);
+    border-radius: 2px;
+}
+
+@media only screen and (max-width:800px) { 
+    .benefits-header {
+        width:800px;
+        margin-left:30px;
+        font-size : 14px;
+    }
+
+    li {
+        line-height: 1.5;
+        font-size:8px;
+    }
+    
+    .section-container {
+        padding-left: 50px;
+        padding-top: 24px;
+        padding-bottom: 12px;
+        padding-right: 40px;
+    }
+
+    .packages-break {
+        background-color: rgb(189, 195, 202);
+        height:200px;
+        align-content: center;
+        font-size:28px;
+        color: rgb(22, 22, 26);
+        width:1500px;
+        
+    }
+    
+    .section-content-container {
+        display: flex;
+        flex-direction:row;
+    }
+    
+
 }
